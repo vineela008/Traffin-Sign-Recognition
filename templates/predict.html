@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!-- STYLESHEET -->
+      <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!-- JAVSCRIPT -->
+      <script src="../static/js/main.js"></script>
+	  
+   </head>
+   <body>
+      <div class="content">
+         <h1 class="title"> TRAFFIC SIGN RECOGNITION DEMO </h1>
+		 <br>
+		 <br>
+		 <br>
+		 
+            <!-- Show prediction results and upload button for follow up predictions. -->
+               <p class="result"> <b>{{prediction}}</b> </p>
+               <br>  
+			   <br>
+			   <div class="formdiv" style="text-align:center">
+			   <form action="http://localhost:5001/" method="POST" enctype = "multipart/form-data" >
+				<input type="submit" value="Upload another image">
+				</form> </div>
+      </div>
+   </body>
+</html>
