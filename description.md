@@ -12,3 +12,15 @@ Download the data set [here]( https://d17h27t6h515a5.cloudfront.net/topher/2017/
 3. Training and evaluating the models using GTSRB dataset
 4. Testing the models for unknown images from the web
 5. Flask application demo for classiying user input Traffic sign images.
+
+## Results
+Training, validation and testing accuracies of three models are given below:
+
+### LeNet
+![net1](https://github.com/vineela008/Traffin-Sign-Recognition/blob/master/test_images/net1.JPG)
+
+### AlexNet
+![net2](https://github.com/vineela008/Traffin-Sign-Recognition/blob/master/test_images/net2.JPG)
+
+### GoogleNet
+![net3](https://github.com/vineela008/Traffin-Sign-Recognition/blob/master/test_images/net3.JPG)
